@@ -178,7 +178,6 @@ ol {
   justify-content: space-between;
   width: 212px;
   gap: 14px;
-  
 }
 
 .search-form__fieldset {
@@ -204,8 +203,7 @@ ol {
   font-size: 18px;
   line-height: 21.6px;
   appearance: none;
-  color: #FFFFFFB2;
-  /* margin-top:  */
+  color: #ffffffb2;
 }
 
 .button {
@@ -250,7 +248,7 @@ ol {
   background-color: transparent;
 }
 
-.content__card-link_current{
+.content__card-link_current {
   background-color: #545050;
 }
 
@@ -268,7 +266,7 @@ ol {
 .content__card-link:active {
   background-color: #545050;
 }
-.search-form__label:has(:focus-visible) .search-form__textfield{
+.search-form__label:has(:focus-visible) .search-form__textfield {
   outline: none;
   outline: 1px solid #fff;
 }
