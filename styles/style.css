@@ -188,7 +188,6 @@ ol {
   display: flex;
   width: fit-content;
   align-items: center;
-  height: 19px;
   cursor: pointer;
 }
 
@@ -267,11 +266,10 @@ ol {
   background-color: #545050;
 }
 .search-form__label:has(:focus-visible) .search-form__textfield {
-  outline: none;
   outline: 1px solid #fff;
 }
 
-.search-form__submit-button:focus-visible,
+.button:focus-visible,
 .search-form__checkbox-list .search-form__label:has(:focus-visible),
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
